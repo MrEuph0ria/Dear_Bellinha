@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SOBRE A BELLINHA <3</title>
+    <style type="text/css">
+        h1{
+            color: red;
+        }
+        body {
+            background-color: gray;
+            color: pink;
+
+        }
+        .centralizado{
+            text-align: center;
+        }
+        @media (max-width: 768px){
+            .centralizado{
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="centralizado">    
+        <h1>um texto para a razão dos meus dias serem mais suportáveis</h1>
+        <h2>querida Bellinha</h2>
+        <p>miguxa, eu sei que isso não vai ser o suficiente para você</p>
+        <p>mas aqui quero mostrar provas que você não é o monstro que tanto fala</p>
+        <button id="botinho">aperte quando você estiver em crises</button>
+        <ol>
+            <li>você sempre esteve presente</li>
+            <li>você se preocupava</li>
+            <li>você as vezes perdia para que ele pudesse ganhar</li>
+            <li>assumia riscos altos demais para manter tudo nos conformes</li>
+            <li>você sempre esteve lá</li>
+        </ol>
+        <h3> a lista é maior minha amiga, mas não vou mencionar sobre pois não quero que se machuque</h3>
+        <p>parafraseando você mesma CLIQUE NO BOTÃO ABAIXO</p>
+        <button id="botaum">CLIQUE EM MIM</button>
+    </div>
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function() {
+            var botao = document.getElementById("botinho");
+            botao.addEventListener("click", function() {
+                window.alert("eu te amo amiga");
+                window.alert("sempre vou estar ao seu lado");
+                window.alert("eu sei que consegue superar, você supera qualquer coisa");
+            });
+            window.alert("VOCÊ É IMPORTANTE PARA MIM");
+            window.alert("preciso que reaja minha amiga");
+        });
+        document.addEventListener("DOMContentLoaded", function() {
+            var bot = document.getElementById("botaum");
+            bot.addEventListener("click", function() {
+                window.alert("você é luz minha amiga");
+                window.alert("não perca a esperança só pq alguém não soube aproveitar sua companhia");
+            });
+        
+        });
+    </script>
+</body>
+</html>
